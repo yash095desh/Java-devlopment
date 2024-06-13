@@ -52,10 +52,10 @@ public class IfElseConditons {
         */
 
         // You have to check which one is greatest among three numbers them using nested loop
-        System.out.println("Enter values for a , b ,c : ");
-        int a = sc.nextInt();
-        int b = sc.nextInt();
-        int c = sc.nextInt();
+//        System.out.println("Enter values for a , b ,c : ");
+//        int a = sc.nextInt();
+//        int b = sc.nextInt();
+//        int c = sc.nextInt();
 
 //        if(a>b){
 //            System.out.println("a is greater than b");
@@ -90,9 +90,28 @@ public class IfElseConditons {
 
         // condition ? expression 1 : expression 2;
 
-        // int max = a > b? a : b ;
-        char max = a > b ? a > c ? 'a' : 'c' : b > a ? 'b' : 'c' ;
-        System.out.println(max);
+//         int max = a > b? a : b ;
+//        char max = a > b ? a > c ? 'a' : 'c' : b > a ? 'b' : 'c' ;
+//        System.out.println(max);
+
+        // Logical Operator in if-else
+        // Used to check multiple conditions in single if-else
+
+        int time = 5;
+//        if(time>4){
+//            if(time<6){
+//                System.out.println("Time to rest");
+//            }else{
+//                System.out.println("Time to work");
+//            }
+//        }else{
+//            System.out.println("Time to work");
+//        }
+        if(time>4 && time<6){
+            System.out.println("Time to rest");
+        }else{
+            System.out.println("Time to work");
+        }
 
     }
 }
