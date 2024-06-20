@@ -1,4 +1,4 @@
-package ClassAndObjects;
+package oops1;
 
 public class ClassBasics {
     public static void main(String[] args) {

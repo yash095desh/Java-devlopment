@@ -1,4 +1,4 @@
-package ClassAndObjects;
+package oops1;
 
 public class MethodOverloading {
     public static void main(String[] args) {
