@@ -3,7 +3,7 @@ package methods;
 public class MathClassMethod {
     public static void main(String[] args){
         // Math class method
-        //1.Math,min(x,y)
+        //1.Math.min(x,y)
 //        2.Math.max(x,y)
 //        3.Math.min(x,y)
 //        4.Math.sqrt(x,y)
